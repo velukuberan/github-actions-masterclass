@@ -1,0 +1,18 @@
+ ```editorconfig
+ root = true
+
+ [*]
+ end_of_line = lf
+ insert_final_newline = true
+ trim_trailing_whitespace = true
+
+ [*.yml]
+ indent_style = space
+ indent_size = 2
+ ```
+
+ *   `root = true`:  Indicates that this is the root `.editorconfig` file for the project.
+ *   `[*]`:  Applies the settings to all file types.  The settings under `[*]` are generic settings you often want for any file.
+ *   `[*.yml]`:  **Specifically targets YAML files.**
+ *   `indent_style = space`:  Specifies that you want to use spaces for indentation.
+ *   `indent_size = 2`:  Sets the indentation size to 2 spaces.

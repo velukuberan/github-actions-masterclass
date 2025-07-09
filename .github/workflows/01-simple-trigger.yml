@@ -1,0 +1,11 @@
+name: 01 - Simple trigger
+
+on:
+    push
+
+jobs:
+    echo-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello
+              run: echo "Hello, world!!!"
